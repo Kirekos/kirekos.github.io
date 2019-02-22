@@ -9,11 +9,11 @@ function setup() {
 }
 
 function draw() {
-  background(10, 10); 
+ background(10, 10); 
 
   
   for (let x = 0; x <= width; x = x + 30) {
-    for (let y = 0; y <= height; y = y + 30) {
+  for (let y = 0; y <= height; y = y + 30) {
       
       let xAngle = map(mouseX, 0, width, -4 * PI, 4 * PI, true);
       let yAngle = map(mouseY, 0, height, -4 * PI, 4 * PI, true);
@@ -24,7 +24,7 @@ function draw() {
       let myX = x + 20 * cos(2 * PI * t + angle);
       let myY = y + 20 * sin(2 * PI * t + angle);
 
-      ellipse(myX, myY, 10); /
+      ellipse(myX, myY, 10); 
     }
   }
 
