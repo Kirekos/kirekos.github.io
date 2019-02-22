@@ -6,12 +6,15 @@ function setup() {
  canvas=createCanvas(windowWidth, windowHeight);
  canvas.position(0,0);
  canvas.style('z-index',-1);
- noStroke();
- fill(250, 20, 20);
+ stroke(250, 0, 0);
+	 //stroke(50, 15, 50);
+	strokeWeight(2);
+  fill(50, 15, 50);
+	//fill(250, 0, 0);
 }
 
 function draw() {
- background(10,10); 
+ background(10, 10); 
 
   
   for (let x = 0; x <= width; x = x + 30) {
@@ -23,13 +26,12 @@ function draw() {
       let angle = xAngle * (x / width) + yAngle * (y / height);
 
     
-      let myX = x + 50 * cos(2 * PI * t + angle);
-      let myY = y + 50 * sin(2 * PI * t + angle);
+      let myX = x + 30 * cos(2 * PI * t + angle);
+      let myY = y + 30 * sin(2 * PI * t + angle);
 
-      ellipse(myX, myY, 10); 
+      rect(myX, myY, 10,10); 
     }
   }
 
   t = t + 0.01; 
 }
-
