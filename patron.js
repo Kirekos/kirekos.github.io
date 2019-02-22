@@ -23,8 +23,8 @@ function draw() {
       let angle = xAngle * (x / width) + yAngle * (y / height);
 
     
-      let myX = x + 20 * cos(2 * PI * t + angle);
-      let myY = y + 20 * sin(2 * PI * t + angle);
+      let myX = x + 50 * cos(2 * PI * t + angle);
+      let myY = y + 50 * sin(2 * PI * t + angle);
 
       ellipse(myX, myY, 10); 
     }
