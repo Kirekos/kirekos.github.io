@@ -1,8 +1,9 @@
 
 let t = 0; // time variable
+var canvas;
 
 function setup() {
-  createCanvas(600, 600);
+ canvas=createCanvas(windowWidth, windowHeight);
   noStroke();
   fill(40, 200, 40);
 }
