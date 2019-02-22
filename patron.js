@@ -13,7 +13,7 @@ fill(250, 20, 20);
 }
 
 function draw() {
- background(10, 10); 
+ background(200); 
 
   
   for (let x = 0; x <= width; x = x + 30) {
