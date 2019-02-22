@@ -4,11 +4,12 @@ var canvas;
 
 function setup() {
  canvas=createCanvas(windowWidth, windowHeight);
-  noStroke();
-  fill(250, 20, 20);
- canvas.position(0,0);
+	canvas.position(0,0);
 	canvas.style('z-index',-1);
   
+  noStroke();
+  fill(250, 20, 20);
+
 }
 
 function draw() {
