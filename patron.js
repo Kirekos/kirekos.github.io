@@ -5,7 +5,10 @@ var canvas;
 function setup() {
  canvas=createCanvas(windowWidth, windowHeight);
   noStroke();
-  fill(40, 200, 40);
+  fill(250, 20, 20);
+ canvas.position(0,0);
+	canvas.style('z-index',-1);
+  
 }
 
 function draw() {
