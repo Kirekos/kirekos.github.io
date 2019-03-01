@@ -9,7 +9,7 @@ function setup() {
  stroke(250, 0, 0);
 	 //stroke(50, 15, 50);
 	strokeWeight(2);
-  fill(150, 15, 50);
+  fill(50, 150, 50);
 	//fill(250, 0, 0);
 }
 
@@ -20,8 +20,8 @@ function draw() {
   for (let x = 0; x <= width; x = x + 30) {
   for (let y = 0; y <= height; y = y + 30) {
       
-      let xAngle = map(mouseX, 0, width, -2 * PI, 2 * PI, true);
-      let yAngle = map(mouseY, 0, height, -2 * PI, 2 * PI, true);
+      let xAngle = map(mouseX, 0, width, -6 * PI, 6 * PI, true);
+      let yAngle = map(mouseY, 0, height, -6 * PI, 6 * PI, true);
      
       let angle = xAngle * (x / width) + yAngle * (y / height);
 
