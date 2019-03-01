@@ -20,8 +20,8 @@ function draw() {
   for (let x = 0; x <= width; x = x + 30) {
   for (let y = 0; y <= height; y = y + 30) {
       
-      let xAngle = map(mouseX, 0, width, -4 * PI, 4 * PI, true);
-      let yAngle = map(mouseY, 0, height, -4 * PI, 4 * PI, true);
+      let xAngle = map(mouseX, 0, width, -2 * PI, 2 * PI, true);
+      let yAngle = map(mouseY, 0, height, -2 * PI, 2 * PI, true);
      
       let angle = xAngle * (x / width) + yAngle * (y / height);
 
