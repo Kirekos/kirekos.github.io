@@ -9,7 +9,7 @@ function setup() {
  stroke(250, 0, 0);
 	 //stroke(50, 15, 50);
 	strokeWeight(2);
-  fill(50, 150, 50);
+  fill(50, 15, 50);
 	//fill(250, 0, 0);
 }
 
