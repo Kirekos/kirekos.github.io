@@ -87,7 +87,9 @@ function draw() {
   }
   t2=t2+0.01;
   t = t + 0.01; 
-  fill(0); 
-  rect(width/5.1, height/4,width/1.5 , 100); 
+ fill(0,0,0,200); 
+	rect(width/4, height/2,width/2 , height/7);
+	rect(width/4, height/1.54,width/2 , height/7);
+	fill(p,c,v);
   fill(p,c,v);
 }
