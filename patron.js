@@ -87,9 +87,17 @@ function draw() {
   }
   t2=t2+0.01;
   t = t + 0.01; 
- fill(0,0,0,200); 
+	fill(0,0,0,200); 
+	textSize(86);
+	text('Erik Jongkind Rodriguez Castellanos',width/7,height/3)
 	rect(width/4, height/2,width/2 , height/7);
-	rect(width/4, height/1.54,width/2 , height/7);
+	//rect(width/4, height/1.54,width/2 , height/7);
 	fill(p,c,v);
-  fill(p,c,v);
+	textSize(72);
+	text('Open processing',width/2.8, height/1.7 );
+}
+function mousePressed() {
+if(mouseX>width/4 &&  mouseX<((width/4)+(width/2)) && mouseY>height/2 && mouseY<((height/2)+(height/7))) { 
+ window.open("https://www.openprocessing.org/user/129918/");
+}  
 }
