@@ -40,8 +40,26 @@ margin:auto;
   font-family: cursive;
   font-size: 25px;
   position: absolute;
-   top: 6em;
-  left :2em;
-  cursor: pointer;
+   font-size: 160%;
+text-align: center;
+ top:30%;
+  left:20%;
+ right:20%;
+  font-weight: bold;
     z-index: 1;
+}
+div.titulo2 {
+   display:block;
+position :absolute;
+  background-color: transparent;
+  color: black;
+  font-family: cursive;
+  font-size: 160%;
+text-align: center;
+ top:30%;
+  left:20%;
+ right:20%;
+font-weight: bold;
+    z-index: 1;
+  
 }
