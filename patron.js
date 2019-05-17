@@ -12,14 +12,20 @@ var canvas;
 
 function setup() {
  canvas=createCanvas(windowWidth, windowHeight);
- canvas.position(0,0);
- canvas.style('z-index',-1);
- stroke(200, 0, 0);
+	 canvas.style('z-index',-1);
+  stroke(200, 0, 0);
 	 //stroke(50, 15, 50);
 	strokeWeight(2);
  fill(50,15,60);
 	//fill(250, 0, 0);
-	frameRate(30);
+frameRate(30);
+var button= createButton('Open processing');
+  button.addClass("Openp");
+  button.mousePressed(on_button_click);
+  var button2= createButton('Github');
+   button2.addClass("Openp2");
+  button2.mousePressed(on_button_click2);
+  
 }
 
 function draw() {
@@ -86,18 +92,29 @@ function draw() {
     }
   }
   t2=t2+0.01;
-  t = t + 0.01; 
+  t = t + 0.01;
+ stroke(255);
 	fill(0,0,0,200); 
-	textSize(86);
-	text('Erik Jongkind Rodriguez Castellanos',width/7,height/3)
-	rect(width/4, height/2,width/2 , height/7);
+	textSize((width+height)/40);
+	text('Erik Jongkind Rodriguez Castellanos',width/13,height/3)
+  stroke(q, b, h);
+	/*rect(width/4, height/2,width/2 , height/7);
 	//rect(width/4, height/1.54,width/2 , height/7);
 	fill(p,c,v);
 	textSize(72);
-	text('Open processing',width/2.8, height/1.7 );
+	text('Open processing',width/2.8, height/1.7 );*/
 }
-function mousePressed() {
+/*function mousePressed() {
 if(mouseX>width/4 &&  mouseX<((width/4)+(width/2)) && mouseY>height/2 && mouseY<((height/2)+(height/7))) { 
  window.open("https://www.openprocessing.org/user/129918/");
 }  
+}*/
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+function on_button_click(){
+  window.open('https://www.openprocessing.org/user/129918');
+}
+function on_button_click2(){
+  window.open('https://github.com/Kirekos/kirekos.github.io/blob/master/patron.js');
 }
