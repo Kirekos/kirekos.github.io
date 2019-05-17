@@ -31,6 +31,17 @@ font-size: 20px;
   background-color:lightgray;
   margin: 0 auto;
   z-index: 1;
-  
-
 }
+div.titulo {
+   display:block;
+margin:auto;
+  background-color: transparent;
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+  position: absolute;
+   top: 6em;
+  left :2em;
+  cursor: pointer;
+    z-index: 1;
+  
