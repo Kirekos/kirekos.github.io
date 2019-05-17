@@ -93,10 +93,10 @@ function draw() {
   }
   t2=t2+0.01;
   t = t + 0.01;
- stroke(255);
-	fill(0,0,0,200); 
-	textSize((width+height)/40);
-	text('Erik Jongkind Rodriguez Castellanos',width/13,height/3)
+// stroke(255);
+	//fill(0,0,0,200); 
+	//textSize((width+height)/40);
+	//text('Erik Jongkind Rodriguez Castellanos',width/13,height/3)
   stroke(q, b, h);
 	/*rect(width/4, height/2,width/2 , height/7);
 	//rect(width/4, height/1.54,width/2 , height/7);
